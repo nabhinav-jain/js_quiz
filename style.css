@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* css for head */
+.head{
+    width: 100vw;
+    height: 10vh;
+    background-color: lightgreen;  
+    margin-top: -2px;
+    
+}
+.headtxt{
+   text-align: center;
+   font-size: 2.2rem;
+   font-weight: bold;
+   margin-top: 2px;
+}
+.center_quiz{
+   
+   
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+.box{
+    margin-top: 5px;
+    border: 2px solid green;
+    width: 70vw;
+    height: 15vh;
+    
+}
+.questxt{
+    text-align: center;
+    font-size: 1.4rem;
+}
+ /* css for answers and score */
+.ans_score{
+    display: flex;
+    border-top: 2px solid green;
+}
+
+
+
+.optionsans ul{
+    margin-top: 1rem;
+    margin-left: 80px;
+    list-style: none;
+}
+.optionsans ul li{
+    margin: 10px;
+    border-radius: 20px;
+    background-color: yellow;
+    height: 70px;
+    width: 500px;
+
+
+}
+
+.optionsans ul li button{
+    background:none;
+    border: none;
+    margin-top: 18px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+
+}
+
+ /* css for score */
+ .scorebox{
+    width: 350px;
+    height: 70px;
+    border: 5px solid lightblue;
+    margin: 25px;
+    border-radius: 4px;
+ }
