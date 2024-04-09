@@ -1,33 +1,36 @@
 let questions=[
     {
-        question:"Who is secretery of gokuldham?",
-        options: ['jethalal','abdul','mehta saab','bhide'],
-        answer:'bhide'
+        question:"What is markup language of browser",
+        options: ['html','css','javascript','python'],
+        answer:'html'
     },
     {
-        question:"What was the name of dog that gokuldham adopted?",
-        options: ['tommy','bruno','sheru','sher'],
-        answer:'sheru'
+        question:"Which one of these is not javascript framework or library",
+        options: ['react','vue','laravel','angular'],
+        answer:'laravel'
 
     },
+   
     {
-        question:"Other than sakaram scooter who bhide considers his brother?",
-        options: ['tution board','suvichar board','chasma','none'],
-        answer:'suvichar board'
-    },{
-        question:"How many countries jethalal been to?",
-        options: [3,4,5,6],
-        answer:5
-    },{
-        question:"How many siblings hathi bhai has?",
-        options: [0,1,2,3],
-        answer:2
-    },{
-        question:"When bawri was first introduced which vegetable price was going up?",
-        options: ['onion','tomato','peas','potato'],
-        answer:'onion'
-
-    }
+        question: "What does HTML stand for?",
+        options: ['Hyper Text Markup Language', 'Hyperlinks and Text Markup Language', 'Home Tool Markup Language', 'Hyper Tool Markup Language'],
+        answer: 'Hyper Text Markup Language'
+      },
+      {
+        question: "Which CSS property is used to control the spacing between elements?",
+        options: ['margin', 'padding', 'border', 'spacing'],
+        answer: 'margin'
+      },
+      {
+        question: "What does CSS stand for?",
+        options: ['Cascading Style Sheets', 'Creative Style Sheets', 'Computer Style Sheets', 'Colorful Style Sheets'],
+        answer: 'Cascading Style Sheets'
+      },
+      {
+        question: "Which programming language is used for web development?",
+        options: ['JavaScript', 'Python', 'Java', 'C#'],
+        answer: 'JavaScript'
+      }
   
 
 ]
